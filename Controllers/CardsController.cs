@@ -15,7 +15,7 @@ public class CardsController : Controller
     }
     
     // GET all cards
-    [HttpGet]
+    [HttpGet] // Kills 2 hours for not implementing
     public async Task<IActionResult> GetAllCards()
     {
         var cards = await cardsDbContext.Cards.ToListAsync();
