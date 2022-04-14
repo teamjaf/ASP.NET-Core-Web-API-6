@@ -1,12 +1,26 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Card_Api.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Card_Api.Controllers;
 
+[ApiController]
+[Route("api/[Controller]")]
 public class CardsController : Controller
 {
-    // GET
-    public IActionResult Index()
+    private readonly CardsDbContext cardsDbContext;
+    public CardsController(CardsDbContext cardsDbContext)
     {
-        return View();
+        this.cardsDbContext = cardsDbContext;
     }
+    
+    // GET all cards
+    [HttpGet]
+    public async Task<IActionResult> GetAllCards()
+    {
+        var cards = await cardsDbContext.Cards.ToListAsync();
+        return Ok(cards);
+    }
+    
+    
 }
