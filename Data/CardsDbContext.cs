@@ -1,6 +1,14 @@
-﻿namespace Card_Api.Data;
+﻿using Card_Api.Models;
+using Microsoft.EntityFrameworkCore;
 
-public class CardsDbContext
+namespace Card_Api.Data;
+
+public class CardsDbContext: DbContext
 {
+    public CardsDbContext(DbContextOptions options): base(options)
+    {
+    }
     
+    // DbSet
+    public DbSet<Card> Cards { get; set; }
 }
