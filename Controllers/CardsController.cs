@@ -51,6 +51,26 @@ public class CardsController : Controller
         return CreatedAtAction(nameof(GetCard), new {id = card.id}, card);
     }
     
-    
-    
+// Updating a card
+    [HttpPut]
+    [Route("{id:guid}")]
+    public async Task<IActionResult> UpdateCard([FromRoute]Guid id, [FromBody] Models.Card card)
+    {
+        var existingCard = await cardsDbContext.Cards.FirstOrDefaultAsync(
+            x => x.id == id);
+        if (card != null)
+        {
+            existingCard.CardHolderName = card.CardHolderName;
+            existingCard.CardNumber = card.CardNumber;
+            existingCard.ExpiryMonth = card.ExpiryMonth;
+            existingCard.ExpiryYear = card.ExpiryYear;
+            existingCard.CVC = card.CVC;
+            
+            await cardsDbContext.SaveChangesAsync();
+
+            return Ok(existingCard);
+        }
+        return NotFound("Card not found!");
+    }
+
 }

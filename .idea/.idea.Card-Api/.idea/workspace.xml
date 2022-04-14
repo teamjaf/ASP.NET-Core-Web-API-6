@@ -7,12 +7,22 @@
   <component name="ChangeListManager">
     <list default="true" id="883b7a33-25e5-43ec-b457-a0ea5849e509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Card-Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Card-Api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Card-Api/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Card-Api/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/CardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CardsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -84,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649932013867</updated>
-      <workItem from="1649932022099" duration="3695000" />
+      <workItem from="1649932022099" duration="5462000" />
     </task>
     <servers />
   </component>
