@@ -23,4 +23,34 @@ public class CardsController : Controller
     }
     
     
+    // Get single card
+    [HttpGet]
+    [Route("{id:guid}")]
+    [ActionName("GetCard")]
+    public async Task<IActionResult> GetCard([FromRoute] Guid id)
+    {
+        var card = await cardsDbContext.Cards.FirstOrDefaultAsync(
+            x => x.id == id);
+        if (card != null)
+        {
+            return Ok(card);
+        }
+        return NotFound("Sorry, card did not found!");
+    }
+
+    
+    // Add single card
+    [HttpPost]
+    [Route("{id:guid}")]
+    public async Task<IActionResult> AddCard([FromBody] Models.Card card)
+    {
+      //  card.id = Guid.NewGuid();
+        await cardsDbContext.Cards.AddAsync(card);
+        await cardsDbContext.SaveChangesAsync();
+
+        return CreatedAtAction(nameof(GetCard), new {id = card.id}, card);
+    }
+    
+    
+    
 }
