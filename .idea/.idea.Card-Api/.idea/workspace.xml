@@ -7,7 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="883b7a33-25e5-43ec-b457-a0ea5849e509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Card-Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Card-Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Card-Api/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Card-Api/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/CardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CardsController.cs" afterDir="false" />
     </list>
@@ -94,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649932013867</updated>
-      <workItem from="1649932022099" duration="5462000" />
+      <workItem from="1649932022099" duration="6751000" />
     </task>
     <servers />
   </component>

@@ -73,4 +73,21 @@ public class CardsController : Controller
         return NotFound("Card not found!");
     }
 
+
+    // Deleting a card
+    [HttpDelete]
+    [Route("{id:guid}")]
+    public async Task<IActionResult> DeleteCard([FromRoute] Guid id)
+    {
+        var existingCard = await cardsDbContext.Cards.FirstOrDefaultAsync(
+            x => x.id == id);
+        if (existingCard != null)
+        {
+            cardsDbContext.Remove(existingCard);
+            await cardsDbContext.SaveChangesAsync();
+            return Ok(existingCard);
+        }
+        return NotFound("Card not found!");
+    }
+
 }
