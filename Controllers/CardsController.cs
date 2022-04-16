@@ -1,8 +1,10 @@
 ﻿using Card_Api.Data;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Card_Api.Controllers;
+
 
 [ApiController]
 [Route("api/[Controller]")]
@@ -44,7 +46,7 @@ public class CardsController : Controller
     [Route("{id:guid}")]
     public async Task<IActionResult> AddCard([FromBody] Models.Card card)
     {
-      //  card.id = Guid.NewGuid();
+       card.id = Guid.NewGuid();
         await cardsDbContext.Cards.AddAsync(card);
         await cardsDbContext.SaveChangesAsync();
 
