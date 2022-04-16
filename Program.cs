@@ -23,6 +23,7 @@ builder.Services.AddCors(options =>
             name: "AllowOrigin",
             builder =>
             {
+                builder.WithOrigins("http://localhost:4200/").WithMethods("POST");
                 builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
             });
     });

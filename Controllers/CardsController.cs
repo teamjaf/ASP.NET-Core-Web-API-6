@@ -41,12 +41,11 @@ public class CardsController : Controller
     }
 
     
-    // Add single card
+    // Adding single card
     [HttpPost]
-    [Route("{id:guid}")]
     public async Task<IActionResult> AddCard([FromBody] Models.Card card)
     {
-       card.id = Guid.NewGuid();
+        card.id = Guid.NewGuid();
         await cardsDbContext.Cards.AddAsync(card);
         await cardsDbContext.SaveChangesAsync();
 
