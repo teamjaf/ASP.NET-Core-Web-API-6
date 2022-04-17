@@ -65,7 +65,7 @@ public class CardsController : Controller
             existingCard.CardNumber = card.CardNumber;
             existingCard.ExpiryMonth = card.ExpiryMonth;
             existingCard.ExpiryYear = card.ExpiryYear;
-            existingCard.CVC = card.CVC;
+            existingCard.cardCVC = card.cardCVC;
             
             await cardsDbContext.SaveChangesAsync();
 

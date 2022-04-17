@@ -7,13 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="883b7a33-25e5-43ec-b457-a0ea5849e509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Card-Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Card-Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Card-Api/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Card-Api/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Card-Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Card-Api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/CardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CardsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +99,7 @@
       <workItem from="1650024527649" duration="752000" />
       <workItem from="1650042684068" duration="4165000" />
       <workItem from="1650059546732" duration="5715000" />
-      <workItem from="1650088009760" duration="8896000" />
+      <workItem from="1650088009760" duration="9966000" />
     </task>
     <servers />
   </component>
