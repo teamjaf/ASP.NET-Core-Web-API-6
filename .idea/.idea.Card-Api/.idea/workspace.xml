@@ -6,9 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="883b7a33-25e5-43ec-b457-a0ea5849e509" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Migrations/20220416172302_third.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20220416172302_third.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Card-Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Card-Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/CardsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CardsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Card-Api/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Card-Api/v17/.futdcache.v1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/v17/.futdcache.v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Card-Api/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Card-Api/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/CardsDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/CardsDbContextModelSnapshot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +103,7 @@
       <workItem from="1650024527649" duration="752000" />
       <workItem from="1650042684068" duration="4165000" />
       <workItem from="1650059546732" duration="5715000" />
-      <workItem from="1650088009760" duration="9966000" />
+      <workItem from="1650088009760" duration="12656000" />
     </task>
     <servers />
   </component>
